@@ -1,0 +1,17 @@
+.fa-arrow-circle-right {
+    float: right;
+    margin-top: 300px;
+    font-size: 50px;
+    cursor: pointer;
+}
+.fa-arrow-circle-left {
+    float: left;
+    margin-top: 300px;
+    font-size: 50px;
+    cursor: pointer;
+
+
+}
+.slider img {
+    width: 600px;
+}
