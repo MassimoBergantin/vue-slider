@@ -5,7 +5,7 @@ new Vue (
         el: '#app',
         data: {
             pics: [
-                'img/brook.jpeg',
+                'img/tokyo.jpeg',
                 'img/NY.jpeg',
                 'img/Roma.jpeg',
                 'img/vegas.jpeg',
