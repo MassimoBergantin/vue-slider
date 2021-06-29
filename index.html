@@ -18,8 +18,12 @@
                 <div class="col-3" @click="prev"><i class="fas fa-arrow-circle-left"></i></div>
                 <div class="slider col-6 mt-5 align-items-center">
                     <img :src="pics[picsIndex]" alt="pics">
+                    <div class="slider-dots">
+                        <i :class="currentDot(index)" v-for="(img, index) in pics" class="fas fa-circle"></i>
+                    </div>
                 </div>
                 <div class="col-3" @click="next"><i class="fas fa-arrow-circle-right"></i></div>
+                
 
             </div>
 
